@@ -1,62 +1,77 @@
 body{
-    margin: 0;
+    background-color: lightcyan;
     font-family: "Montserrat", sans-serif;
-}
-p{
-    color: dimgrey;
+    margin: 0;
+    padding: 0;
+
 }
 
-/* TOP SECTION */
-.name-color-change{
-    color: darkorange;
+/* Section */
+section{
+        height: 400px;
+        margin-bottom: 20px;
+        padding-bottom: 50px;
 }
-.top-half-width{
-     width: 40%;
-    margin-left: 5%;
-    padding-left: 2%;
-    float: left;
+h1{
+    font-size: 30px;
 }
-.top-half-width img{
+.orange-text{
+    color: orange;
+}
+.half-width{
     width: 40%;
+    float: left;
+    margin-left:5% ;
+    padding-left: 2%;
 }
-.top-background-banner{
-    background-image: url("images/top-banner.png");   
-    background-repeat: no-repeat;
-}
+/* Button */
 .link-button{
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    background-image: linear-gradient(90deg,darkorange, tomato);
+    font-weight: 800;
+    background-image: linear-gradient(90deg,rgb(255, 234, 0), rgb(255, 140, 0));
     padding: 10px 20px;
     border-radius: 10px;
 }
-section{
-    height: 500px;
+.half-width img{
+    width: 100%;
 }
-
-/*SECOND SECTION*/
-.second-half-width{
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 2%;
-    float: right;
-}
-.second-half-width img{
-    width: 40%;
-    margin-top: 20px;
-}
-.link-button-second{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-image: linear-gradient(90deg,darkorange, tomato);
-}
-
-.second-background-banner{
-    background-image: url(images/dream-bg.png);
+.top-banner{
+    width: 100%;
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+.dream-big-background-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow-effect{
+    background-color: rgb(230, 255, 230);
+    border-radius: 10px;
+    height: 80%;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#virtical-line-left{
+    border-left: 8px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#virtical-line-right{
+    border-left: 8px solid;
+    border-image: linear-gradient(360deg, rgb(0, 225, 255), rgb(0, 51, 255));
+    border-image-slice: 1;
+}
+
+footer p{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: dimgray;
+    padding: 30px;
 }
